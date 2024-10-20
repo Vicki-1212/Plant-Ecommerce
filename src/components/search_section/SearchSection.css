@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.search-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    gap:10px;
+}
+
+.search-container {
+    border-bottom: 2px solid #00000099;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+.search-icon {
+    font-size:20px;
+}
+
+.search-input {
+    border:none;
+    outline:none;
+    padding-left:10px;
+    height:30px;
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .search-input {
+        width:300px;
+    }
+}
+
+.plant-logo {
+    height:25px;
+    width:32px;
+}
+
+.plants-description-container {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.plants-media-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.plant-button {
+    width:114px;
+    height:37px;
+    color:#FFFFFF;
+    background-color: #165315;
+    outline:none;
+}
+
+.post-button {
+    width:114px;
+    height:37px;
+    background-color: transparent;
+    color:#0000004D;
+    border:1px solid #0000004D; 
+    outline:none;
+}
+
+.plant-description {
+    color:#838383;
+    font-size:12px;
+    font-weight:400;
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .plant-description {
+        font-size:16px;
+    }
+}

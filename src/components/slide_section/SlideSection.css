@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.slide-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:100%;
+}
+
+.slide-section-heading {
+    font-size:24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.slide-plant-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+    gap:50px;
+    margin-top:20px;
+}
+
+.plant-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:200px;
+}
+
+.slide-plant-image {
+    width:120px;
+    height:120px;
+}
+
+.slide-plant-description {
+    color:#838383;
+    font-size:14px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
